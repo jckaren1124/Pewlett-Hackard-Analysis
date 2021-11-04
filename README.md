@@ -24,7 +24,7 @@ retiring_titles: the number of retiring employees in each job title
 
 ![image](https://user-images.githubusercontent.com/89353378/140006484-e856ba44-5e1c-4dff-892a-9795d6384bd3.png)
 
-•	The mentorship_eligibility table filters past employees and only includes current employees who are nearing retirement age. This is a better representation of retiring employees from Pewlett-Hackard.
+•	The mentorship_eligibility table filters past employees and only includes current employees who are at age 56. This is a better representation of retiring employees from Pewlett-Hackard.
 
 mentorship_eligibility: 
 
@@ -34,8 +34,19 @@ mentorship_eligibility:
 
 ## Summary
 
+A couple of new tables were created.
+mentorship_eligibility_total table calculates the total number of eligible mentoring employees.
 
+![image](https://user-images.githubusercontent.com/89353378/140370365-2009bbee-9d1a-4ef0-9593-634019621380.png)
 
+current_employees_by_title tabulates the total number of current employees.
 
+![image](https://user-images.githubusercontent.com/89353378/140370923-60e00a39-73ca-491b-bc22-1f25e40d683d.png)
 
+Based on these numbers, there doesn't seem to be enough mentoring employees to train current employees. There aren't any mentoring managers, and the mentoring employees for other titles only account for a very small fraction of the workforce (less than 1%) with the exception of senior engineer and staff (around 1%). Pewlett_Hackard may want to expand their mentorship eligibility program.
 
+Another new table, current_retiring_employees_total, provides a sum of all employees by title who are near retirement age.
+
+![image](https://user-images.githubusercontent.com/89353378/140380413-37a49c96-a5d0-42a8-9202-c6de850d1a60.png)
+
+It appears that around 20% of the workforce are nearing retirement with the exception of some titles. Retiring individuals account for 50% of the senior engineers and staff, while 30% of technique leaders will be retiring. This means Pewlett-Hackard should plan to fill senior engineer and staff positions first. 
