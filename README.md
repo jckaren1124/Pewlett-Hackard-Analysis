@@ -12,19 +12,19 @@ retirement_titles: all retiring employees and their job titles
 
 ![image](https://user-images.githubusercontent.com/89353378/140330992-326f581c-824b-47d7-bc40-1b27cd8c9d41.png)
 
-•	The unique_titles table filters the duplicate job titles and only keeps the last job title for each employee. However, a list of past employees is still included on this table.
+•	The unique_titles table filters the duplicate job titles and only keeps the last job title for each employee. However, a list of past employees is still included in this table.
 
 unique_titles: all retiring employees with their last job title
 
 ![image](https://user-images.githubusercontent.com/89353378/140331194-0c7d6e98-f2da-4e13-a2b3-4e5b15b7ecb0.png)
 
-•	The retiring_titles table tallies the total number of retiring employees by job title that was listed in the unique_titles table, which means this the number of past employees is also counted in the total numbers.
+•	The retiring_titles table tallies the total number of retiring employees by job title that was listed in the unique_titles table, which means the number of past employees is also counted in the total numbers.
 
 retiring_titles: the number of retiring employees in each job title
 
 ![image](https://user-images.githubusercontent.com/89353378/140006484-e856ba44-5e1c-4dff-892a-9795d6384bd3.png)
 
-•	The mentorship_eligibility table filters past employees and only includes current employees who are at age 56. This is a better representation of retiring employees from Pewlett-Hackard.
+•	The mentorship_eligibility table filters past employees and only includes current employees who are at age 56. Pewlett-Hackard is considering switching these employees to part time roles and mentor current and new hires.
 
 mentorship_eligibility: 
 
